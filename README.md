@@ -36,7 +36,7 @@ cd <repository_name>
 ```
 ### Run the Application
 ```bash
-  uvicorn main:app --reload
+  python main.py --port 8080
 ```
-> The FastAPI application will be accessible at http://127.0.0.1:8000.
+> The FastAPI application will be accessible at http://127.0.0.1:8080.
 
